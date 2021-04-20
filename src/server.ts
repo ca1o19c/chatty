@@ -6,7 +6,7 @@ app.get('/', (req, res) => res.json({
   message: 'Hello World!',
 }));
 
-app.post('/route', (req, res) => res.json({
+app.post('/routes', (req, res) => res.json({
   message: 'The requisition has arrived!',
 }));
 
